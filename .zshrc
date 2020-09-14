@@ -120,6 +120,11 @@ fi
 
 . $HOME/.asdf/asdf.sh
 
+
+# exports
+export PATH=$PATH:/usr/local/go/bin
+
+
 sourceZsh(){
     source ~/.zshrc
     backupToDrive ~/.zshrc
