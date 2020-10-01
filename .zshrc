@@ -124,6 +124,7 @@ fi
 # exports
 export PATH=$PATH:/usr/local/go/bin
 
+alias getenv=~/Projects/scripts/getenv.sh
 
 sourceZsh(){
     source ~/.zshrc
