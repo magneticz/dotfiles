@@ -121,7 +121,8 @@ fi
 
 
 # exports
-export PATH=$PATH:/usr/local/go/bin
+export GOPATH=$HOME/Projects/go
+export PATH=$PATH:/usr/local/go/bin:$GOPATH/bin
 export PATH=$PATH:/home/askar/.linkerd2/bin
 
 
